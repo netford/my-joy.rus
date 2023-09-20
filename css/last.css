@@ -615,3 +615,7 @@ body {
   text-decoration: none; 
   color: #fff !important;
 }
+
+a[href="#callbackwidget"] {
+  text-decoration: none !important;
+}
