@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="clo.svg" class="cls-1" d="M611,620.719L608.281,618,597.5,628.781,586.719,618,584,620.719,594.781,631.5,584,642.281,586.719,645,597.5,634.219,608.281,645,611,642.281,600.219,631.5Z" transform="translate(-584 -618)"/>
+</svg>

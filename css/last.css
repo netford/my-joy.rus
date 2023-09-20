@@ -1,0 +1,617 @@
+@font-face {
+  font-family: 'Andika';
+  src: url('fonts/Andika-R.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #000026;
+}
+
+.navbar {
+  height: 48px;
+}
+
+.mosaic-wrap {
+  margin-top: 48px;
+}
+
+.navbar-toggler {
+  z-index: 999999;
+}
+
+.navbar-collapse {
+  background-color: rgba(0, 0, 38, 0.8);
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.owl-nav,
+.owl-dots {
+  display: none;
+}
+
+.blocklist__list--u-ioh1aponl {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.rotating-image {
+  animation: rotate 5s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#i70os7ppn_0,
+#i3q8quh5s_0 {
+  text-align: center;
+}
+
+.for-sliders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#i1eotsnxa_0 {
+  text-align: center;
+}
+
+.adapevnosug {
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(167, 167, 167, 0.71);
+  margin-top: 26px;
+  border-radius: 20px;
+  width: 45vw;
+}
+
+.adapevnosug-edsa {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.adapevnosug-nasav:checked+.adapevnosug-kolas {
+  position: static;
+  opacity: 100;
+}
+
+.adapevnosug-kolas {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.adapevnosug-kolas img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.vealulu-kadsan {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #393939;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.vealulu-kadsan.prev {
+  left: 2%;
+}
+
+.vealulu-kadsan.next {
+  right: 2%;
+}
+
+.vealulu-kadsan:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #f3be81;
+}
+
+#adapevnosug-1:checked~.nedsug-1,
+#adapevnosug-2:checked~.nedsug-2,
+#adapevnosug-3:checked~.nedsug-3 {
+  display: block;
+}
+
+.esamon-getusa {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.esamon-getusa li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.adapevnosug-bullet {
+  color: #393939;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.adapevnosug-bullet:hover {
+  color: #fff;
+}
+
+#adapevnosug-1:checked~.nedsug-1~.esamon-getusa li:nth-child(1) .adapevnosug-bullet,
+#adapevnosug-2:checked~.nedsug-2~.esamon-getusa li:nth-child(2) .adapevnosug-bullet,
+#adapevnosug-3:checked~.nedsug-3~.esamon-getusa li:nth-child(3) .adapevnosug-bullet {
+  color: #99f6ff;
+}
+
+/* Для мобильных устройств */
+@media screen and (max-width: 480px) {
+  .adapevnosug {
+    width: 100vw;
+    /* Ширина равна ширине экрана */
+    max-width: 100%;
+    /* Учтем меньшие экраны */
+  }
+
+  .navbar {
+    height: 0;
+  }
+
+  .mosaic-wrap {
+    margin-top: 0;
+  }
+}
+
+/* Для планшетов */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .adapevnosug {
+    width: 100vw;
+    max-width: 100%;
+  }
+}
+
+/* Для ноутбуков и десктопов */
+@media screen and (min-width: 769px) {
+  .adapevnosug {
+    width: 80vw;
+    max-width: 80%;
+  }
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  #ifnrocbn6_0 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #ifnrocbn6_0 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #ifnrocbn6_0 {
+    display: none;
+  }
+}
+
+#i637umw7x_0 {
+  color: black;
+}
+
+.section-about {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+#i90wyyvny_0 {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+#btn-callback {
+  margin-left: 250px;
+}
+
+@media (max-width: 1200px) {
+  #btn-callback {
+    display: none;
+  }
+}
+
+#ihro1pzk4_0 {
+  display: none;
+}
+
+.neon-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #31c9ff; /* Цвет текста */
+  text-shadow: 0 0 8px #31c9ff, 0 0 8px #31c9ff, 0 0 8px #31c9ff;
+  animation: neon-blink 1s infinite;
+  -webkit-text-stroke: 5px #efff78; /* Обводка белого цвета */
+  text-stroke: 5px #efff78; /* Обводка белого цвета */
+}
+
+
+
+@keyframes neon-blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.slider-for-action img {
+  border-radius: 24px;
+}
+
+.neon-text-p {
+  color: #080651;
+  text-align: left;
+}
+
+.services-header {
+  color: #000026;
+  text-transform: uppercase;
+}
+
+/* Стили для модального окна */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 2% auto;
+  padding: 20px;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+
+.close {
+  color: #aaa;
+  float: right !important;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: right !important;
+  width: 98%;
+}
+
+.close:hover {
+  color: black;
+}
+
+.modal-content h2 {
+  font-family: 'Andika', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.rainbow-text {
+  font-size: 24px;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg, #FF5733, #FFBD33, #33FF5E, #33D3FF, #333BFF, #CC33FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  vertical-align: middle;
+}
+
+.inline-image {
+  max-height: 3em;
+  vertical-align: middle;
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.inline-image {
+  margin-left: 10px;
+}
+
+.content-items {
+  font-size: 1.6em;
+  padding: 55px;
+}
+
+.content-items h2 {
+  font-family: 'Andika', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.0em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content-items ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.li-mark-img {
+  width: 4%;
+}
+
+.btn-in-modal {
+  border: 3px solid #00bdff;
+  margin-bottom: 25px;
+}
+
+.content-items h3 {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.services-ul {
+  font-size: 1.3em;
+}
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+  .content-items {
+    font-size: 0.9em;
+    padding: 25px;
+  }
+
+  .content-items h2 {
+    font-size: 1.8em;
+  }
+
+  .li-mark-img {
+    width: 9%;
+  }
+
+  .services-ul {
+    font-size: 1.4em;
+  }
+}
+
+/* Медиазапрос для планшетных устройств */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content-items {
+    font-size: 1.2em;
+    padding: 40px;
+  }
+
+  .content-items h2 {
+    font-size: 1.4em;
+  }
+
+  .li-mark-img {
+    width: 6%;
+  }
+
+  .services-ul {
+    font-size: 1.35em;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt1{
+  margin-top: 15px;
+}
+
+.modal-about {
+  font-size: 1.0rem;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  background: rgba(255,255,255,.3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+#carousel-thumbs img:hover {
+  border-color: rgba(255,255,255,.3);
+}
+#carousel-thumbs .selected img {
+  border-color: #fff;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
+
+.adaptivn-slayder{
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.adaptivn-slayder .parag img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.adaptivn-slayder .prev, .adaptivn-slayder .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.adaptivn-slayder .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.adaptivn-slayder .prev:hover,
+.adaptivn-slayder .next:hover {
+  background-color: rgba(25, 24, 24, 0.8);
+}
+
+.beksun-slayda{
+  position: absolute;
+  color: #f4f4f7;
+  font-size: 35px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 1px #141415, 0 0 1em #141415;
+}
+
+.uneizmen-akemada {
+  text-align: center;
+}
+.noguma-pomoki-kadra{
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.deystvuyus,
+.noguma-pomoki-kadra:hover {
+  background-color: #aaa;
+}
+
+.adaptivn-slayder .parag {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+  opacity: .4
+  }
+  to {
+  opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+  opacity: .4
+  }
+  to {
+  opacity: 1
+  }
+}
+
+.nav-link:hover {
+  color: #0092ca; /* Меняем цвет при наведении (замените на желаемый цвет) */
+  transition: font-size 0.3s, color 0.3s; /* Добавляем плавное изменение размера шрифта и цвета */
+}
+
+.nav-link.active {
+  text-decoration: underline; 
+  color: #0092ca !important; 
+}
+
+.nav-link.active[data-target="myModal10"] {
+  text-decoration: none; 
+  color: #fff !important;
+}
